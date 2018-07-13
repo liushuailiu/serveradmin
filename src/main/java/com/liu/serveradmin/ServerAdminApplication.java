@@ -18,6 +18,7 @@ import org.springframework.security.web.authentication.SavedRequestAwareAuthenti
 @Configuration
 public class ServerAdminApplication {
     public static void main(String[] args) {
+        System.out.println("test");
         SpringApplication.run(ServerAdminApplication.class, args);
     }
 
